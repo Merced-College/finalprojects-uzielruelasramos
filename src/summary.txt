@@ -1,0 +1,8 @@
+For my final project, I am buidling a program that calculates the users BMR. 
+A persons BMR or Basal Metabolic Rate is the number of calories the body needs to consume to function.
+When trying to lose, gain, or maintain weight knowing your BMR is crucial. 
+This program will take the users details and using the Mifflin-St Jeor Equation will give them their BMR.
+So far, I have coded the most important aspects of the program like the user inputs and logic that the calculator uses.
+I plan to expand this program by adding features like a diary where the user can track how much calories they've consumed that day
+and a feature where they can search for common foods and their calories.
+I would also love to implement a simple UI for this program. 

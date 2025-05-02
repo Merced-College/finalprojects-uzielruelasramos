@@ -8,6 +8,7 @@ public class CalorieCalculator {
         double height = user.getHeightCm();
         int age = user.getAge();
 
+        // Mifflin-St Jeor Equation depending on gender
         if (user.getGender().equalsIgnoreCase("male")) {
             return 10 * weight + 6.25 * height - 5 * age + 5;
         } else {
@@ -20,6 +21,8 @@ public class CalorieCalculator {
     public static void main(String[] args) {
 
         try (Scanner scanner = new Scanner(System.in)) {
+
+            //User input
             System.out.print("Enter your Name: ");
             String name = scanner.nextLine();
             
@@ -39,6 +42,7 @@ public class CalorieCalculator {
             User user = new User(name, age, gender, height, weight);
             double bmr = calculateBMR(user);
             
+            // Displays the BMR result to the user
             System.out.printf("%s, your BMR is: %.2f calories/day\n", user.getName(), bmr);
         }
 

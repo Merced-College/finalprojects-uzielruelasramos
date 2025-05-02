@@ -1,3 +1,5 @@
+// User class to store user details
+
 public class User {
     
     private final String name;
