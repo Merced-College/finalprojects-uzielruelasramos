@@ -94,11 +94,11 @@ Data Structures Used:
 
 Design or Development Process:
 
-1. I ran into a problem in the design process where I initially wanted to create graphics for this program, but due to time contraints, I decided to make the program a terminal based program. 
+1. I ran into a problem in the design process where I initially wanted to create graphics for this program, but due to time constraints, I decided to make the program a terminal based program. 
 I decided to make it a terminal based program because it would be easier to test given the time I had and I was still able to meet the project requirements with a terminal based program.
 
 2. While implementing the activity level feature I decided to choose a Hashmap instead of if or else statements. I chose to use the Hashmap data structure because it is cleaner and faster.
 
-3. After I implemented the activity level feature I ran into a problem where the program would skip over the users input for the activity level feature, resulting in the feature not working. I fixed this by adding a scanner.nextLine() after nextDouble() to clear the buffer. This would let the user input their activity level and modify their BMR intead of the program defualting to sedantary.
+3. After I implemented the activity level feature I ran into a problem where the program would skip over the users input for the activity level feature, resulting in the feature not working. I fixed this by adding a scanner.nextLine() after nextDouble() to clear the buffer. This would let the user input their activity level and modify their BMR intead of the program defaulting to sedantary.
 
 --------------------
